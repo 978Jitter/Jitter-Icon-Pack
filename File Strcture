@@ -1,0 +1,23 @@
+JitterTech_Icons/
+├── README.md
+├── uninstall.sh
+├── JITTER/
+│   ├── small/
+│   │   ├── places/     # Folders, trash, bookmarks, network & wordlists (.svg)
+│   │   └── status/     # Battery, network, adapter, emblems & dialogs (.svg)
+│   └── symbolic/
+│       ├── actions/    # UI controls, media, edit, navigation & window actions
+│       ├── apps/       # App & preferences symbolics
+│       ├── categories/ # Menu & system category symbolics
+│       ├── devices/    # Drives, USB/SD, audio, network, inputs & displays
+│       ├── mimetypes/  # Code, archives, pcap, pem, sqlite3, docs & media
+│       ├── places/     # Symbolic folders, home, desktop, trash & network
+│       └── status/     # Battery levels, Wi-Fi/BT/cellular, audio & alerts
+└── tools/
+    ├── build_icons.py / build_icons.py.bak
+    ├── fill_missing.py
+    ├── glyphs.py
+    ├── iconkit.py
+    ├── jitlib.py
+    ├── preview.py
+    └── __pycache__/
