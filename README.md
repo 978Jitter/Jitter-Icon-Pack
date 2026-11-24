@@ -1,19 +1,22 @@
-# // JITTERTECH ICONS (`JITTER`)
+🎨 Design Language
+High-Contrast Monochrome: Crisp silver-white (#CFCFD3 / #FFFFFF) line-art and geometric glyphs built for dark desktop surfaces (#0D090A / #181012) without visual clutter.
 
-A custom monochrome and silver-white vector icon pack engineered to pair seamlessly with the matte-black and crimson (`#E11D2E`) **Jitter-Shadow** desktop theme on Linux XFCE and portable ARM64 cyberdecks.
+Technical & Utility Motifs: Pulse-waveform icons for removable media and hardware utilities, hexagonal badges, terminal glyphs, clean angular folders, and dedicated icons for network captures, keys, databases, and text lists.
 
-### 🎨 Design Language
-* **High-Contrast Monochrome:** Crisp silver-white (`#CFCFD3` / `#FFFFFF`) line-art and geometric glyphs designed to pop against `#0D090A` and `#181012` dark surfaces without visual clutter.
-* **Cyberdeck, RF & Security Motifs:** Custom pulse-waveform icons for removable drives and hardware tools, hexagonal badges, terminal glyphs, clean angular folders, and dedicated `.pcap`, `.pem`, `.sqlite3`, and wordlist icons.
+📦 Coverage
+Places & File Manager (Thunar): Custom folder glyphs for Home, Desktop, Recent, Trash, Documents, Music, Pictures, Videos, Downloads, File System, and Browse Network.
 
-### 📦 Coverage
-* **Places & File Manager (Thunar):** Custom folder glyphs for `Home`, `Desktop`, `Recent`, `Trash`, `Documents`, `Music`, `Pictures`, `Videos`, `Downloads`, `Wordlists`, `File System`, and `Browse Network`[cite: 9, 10].
-* **XFCE Settings & System Tools:** Uniform geometric icons across `Appearance`, `Panel`, `Window Manager`, `Display`, `Bluetooth`, `Power Manager`, `Keyboard`, and `Session & Startup`[cite: 10].
-* **Panel, System Tray & Mimetype Symbolics:** Crisp dock launcher icons, monochrome tray status indicators (volume, battery levels, Wi-Fi/BT/cellular, power), and scalable `-symbolic.svg` mimetypes for code, packet captures, keys, and databases[cite: 9].
+XFCE Settings & System Tools: Uniform geometric icons across Appearance, Panel, Window Manager, Display, Bluetooth, Power Manager, Keyboard, and Session & Startup.
 
-### ⚙️ Installation
-1. Copy `JITTER` into your local icons directory:
-   ```bash
-   mkdir -p ~/.local/share/icons
-   cp -r JITTER ~/.local/share/icons/
-   gtk-update-icon-cache -f -t ~/.local/share/icons/JITTER
+Panel, System Tray & Mimetype Symbolics: Crisp launcher icons, monochrome tray status indicators (volume, battery levels, Wi-Fi, Bluetooth, cellular, power), and scalable -symbolic.svg mimetype icons for code, capture files, keys, and databases.
+
+⚙️ Installation
+Create your local icons directory if it does not exist:
+
+Bash
+mkdir -p ~/.local/share/icons
+Copy the JITTER theme folder into your local icons directory and refresh the icon cache:
+
+Bash
+cp -r JITTER ~/.local/share/icons/
+gtk-update-icon-cache -f -t ~/.local/share/icons/JITTER
